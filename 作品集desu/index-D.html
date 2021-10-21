@@ -1,0 +1,390 @@
+<html>
+
+<head>
+    <!-- 讓 mobile/tablet 等比例呈現網頁資訊-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        *::selection {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Microsoft JhengHei, Noto Sans TC, PingFang TC, Apple LiGothic Medium, Roboto, Lucida Grande, Lucida Sans Unicode, sans-serif;
+            ;
+        }
+        span {
+            display: inline;
+        }
+
+
+
+
+        .text-block {
+            font-family: 'Noto Sans TC', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+
+            line-height: 30px;
+            text-align: center;
+            padding-top: 15px;
+           
+
+            margin-right: auto;
+            margin-left: auto;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+
+        .flex-container {
+            
+            width: 100vw;
+            height: 25vh;
+            z-index: -1;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .last-words {
+            width: 33%vw;
+            height: 30%vh;
+            margin: 0;
+            margin-top: 10px;
+        }
+
+        .one-of-three{
+            
+            height: 20%vh;
+            margin: 0;
+            margin-top: -140px;
+        }
+        .three-title{
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+        .three-text{
+            height: 41px;
+            width: 28vw;
+            left: 82px;
+            top: 1183px;
+
+        }
+
+        .myborder {
+            width: 80vw;
+            margin-right: auto;
+            margin-left: auto;
+            border-width: 0 0 3px 0;
+            border-color: #EBDEBE;
+            border-style: solid;
+        }
+
+        .category {
+            height: 26px;
+            width: 240px;
+            left: 3%;
+            top: 10px;
+            position: relative;
+            font-family: Roboto;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: center;
+            
+        }
+
+
+        figure.hero-image {
+            position: relative;
+            height: 570px;
+            width: 100vw;
+            left: 0px;
+            top: 0px;
+            border-radius: 0px;
+
+        }
+
+
+
+        figure {
+            background: #EBDEBE;
+            width: 100%;
+        }
+
+        figcaption {
+            color: #404040;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        nav {
+            display: flex;
+            width: 100vw;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #69DADB;
+            height: 120px;
+            font-weight: bold;            
+        }
+        a:hover {
+            transform: scale(1.1);
+            transition: transform .1s linear;
+            color: #69DADB
+        }
+
+        a {
+            color: #1597E5;
+        }
+
+        a:visited,
+        a:active {
+            color: #1597E5;
+            text-decoration: none;
+        }
+
+        @media screen and (min-width: 900px) {
+                   figure {
+                margin-bottom: 60px;
+            }
+
+            .text-block {
+                font-size: 32px;
+                width: 210px;
+                height: 60px;
+            }
+
+            .last-words {
+                font-size: 24px;
+            }
+
+  
+        }
+
+
+
+
+
+        
+    </style>
+  
+</head>
+
+<body>
+    <!--Banner-->
+    <nav>
+        <figure
+        style="text-align: center;
+        background-color: #69DADB;
+        font-size: 50px;
+        padding-top: 60px;"> 郭又華作品集 </figure>
+    </nav>
+    
+    <article>
+
+
+        <!-- 這裡放資料新聞連結跟圖片 -->
+       
+        <!-- 接下來的三個 -->
+
+
+<figure style="background-color: #E5E5E5; height: 45vw;">
+    <div class="category" style="color: #2c2222; top: 40px;"><u>資料新聞</u></div>
+</br></br></br></br></br></br></br></br></br></br>
+<div class="flex-container">
+            
+    <a href="https://www.youtube.com/watch?v=uXm6153MyY8"
+    style="padding-left: 10%;">
+        <div class="one-of-three">
+            <img src="img/1.jpg" style=" width: 27vw; height: 35vh; ">
+            </img>
+        </div>
+    </br>    <div class="three-title">歐美亞疫情單元：</div>
+            <div  class="three-title">用數據圖表看全球每日疫情</div>
+    </br>
+        <div class="three-text">利用每日確診數等數據，敘述疫情趨勢，並提供歐美亞各國疫情相關新聞。</div>
+    </a>
+    
+    <a href="https://105405047.wixsite.com/typhoon-n-reservoir"
+    style="padding-right: 10%;">
+        <div class="one-of-three">
+            <img src="img/2.jpg" style=" width: 27vw; height: 35vh;  ">
+            </img>
+        </div>
+    </br>    <div class="three-title">颱風不來</div>
+    <div class="three-title">五月的水庫不豐</div>
+    </br>
+        <div class="three-text">利用爬蟲結果，分析颱風季降雨情形與水庫個月儲水量的關係，並呈現出颱風與水庫乾旱之間的相對關係。</div>
+        </a>   
+
+</div>
+</figure>
+
+         <!-- 接下來的三個影音專題 -->
+
+<figure style="background-color: #E5E5E5; height: 45vw;">
+    <div class="category" style="color: #2c2222; top: 50px;"><u>含圖表的影音新聞</u></div>
+</br></br></br></br></br></br></br></br></br></br>
+<div class="flex-container">
+            
+    <a href="https://www.youtube.com/watch?v=LYYFxAHNXd0">
+        <div class="one-of-three">
+            <img src="img/3.jpg" style=" width: 27vw; height: 35vh; ">
+            </img>
+        </div>
+    </br>    <div class="three-title" >廢棄寶特瓶做防護衣</div>
+    <div class="three-title">泰國防疫兼環保</div>
+    </br>
+        <div class="three-text" style=" text-align: center;"> 透過畫面設計呈現塑膠再生流程，也盤點再生防護衣對於環保助益的數據。</div>
+    </a>
+    <a href="https://www.youtube.com/watch?v=pJKoBz6z5wY ">
+        <div class="one-of-three">
+            <img src="img/4.jpg" style=" width: 27vw; height: 35vh; ">
+            </img>
+        </div>
+    </br>    <div class="three-title" >學校不開學童沒資源</div>
+    <div class="three-title">疫情曝教育貧富差距</div>
+    </br>
+        <div class="three-text" style=" text-align: center;"> 利用受教時印度鄉村學童的討喜光景，對比落後國家在疫情下的受教遭阻礙的數據，凸顯疫情下，教育資源更難以抵達偏鄉的窘境。</div>
+    </a>
+    <a href="https://www.youtube.com/watch?v=aeyhjy1X9fo">
+        <div class="one-of-three">
+            <img src="img/5.jpg" style=" width: 27vw; height: 35vh; ">
+            </img>
+        </div>
+    </br>    <div class="three-title" >緩解選後負面情緒</div>
+    <div class="three-title">街頭擁抱傳遞溫暖</div>
+    </br>
+        <div class="three-text" style=" text-align: center;"> 2018大選綁公投，造成不少人出現「選舉症候群」。以年情族群的反應和排解的方式，佐以健康知識，希望帶給觀眾一點走出憂鬱的能量。</div>
+    </a>
+</div>
+</figure>
+
+
+         <!-- 接下來的四個文字專題 -->
+   <figure style="background-color: #E5E5E5; height: 45vw; margin: 0;">
+            <div class="category" style="color: #2c2222; top: 50px;"><u>長篇文字專題</u></div>
+        </br></br></br></br></br></br></br></br></br></br>
+      
+        </br>    
+    
+        <div class="flex-container">
+                                
+            <a href="https://vision.udn.com/vision/story/120965/5382460">
+                <div class="one-of-three">
+                    <img src="img/6.png" style=" width: 27vw; height: 35vh; ">
+    
+                    </img>
+                </div>
+            </br>    <div class="three-title" >噗噗共乘來了：</div>
+            <div class="three-title">偏鄉交通資源如何整合？</div>
+            </br>
+                <div class="three-text" style=" text-align: center;">榮獲全球華文永續報導獎社會價值獎，透過審視偏鄉交通方案「噗噗共乘」的營運，帶出偏鄉交通資源急需整合的現象。</div>
+            </a>
+         
+           
+        </div>
+        </figure>
+         <figure style="background-color: #E5E5E5; height: 45vw;">
+         
+        </br></br></br></br></br>
+      
+        </br>    
+        </br>
+           
+        </a>
+        <div class="flex-container">
+                    
+            
+            <a href="https://news.cts.com.tw/unews/campus/201905/201905081960611.html">
+                <div class="one-of-three">
+                    <img src="img/7.jpg" style=" width: 27vw; height: 35vh; ">
+                    </img>
+                </div>
+            </br>    <div class="three-title" >黃牛解密：</div>
+            <div class="three-title">娛樂市場下的必然 哄抬價格的黑手</div>
+            </br>
+                <div class="three-text" style=" text-align: center;"> 透過訪問黃牛、購票民眾及經濟學者，探討演唱會等門票黃牛，在台灣猖獗卻無法可管也無法遏止的現象及原因。</div>
+            </a>
+            <a href="https://news.cts.com.tw/unews/campus/201905/201905301962757.html">
+                <div class="one-of-three">
+                    <img src="img/8.jpg" style=" width: 27vw; height: 35vh; ">
+                    </img>
+                </div>
+            </br>    <div class="three-title" >小農鮮乳崛起：</div>
+            <div class="three-title">探索市場新規則</div>
+            </br>
+                <div class="three-text" style=" text-align: center;"> 台灣鮮乳市場近年出現主打「小農鮮乳」的眾多獨立品牌，打破大廠長期壟斷的生態。透過訪問小農鮮乳的經營者及上下游業者，勾勒出台灣鮮乳市場的新輪廓。</div>
+            </a>
+            <a href="https://www.thenewslens.com/article/143666">
+                <div class="one-of-three">
+                    <img src="img/9.jpg" style=" width: 27vw; height: 35vh; ">
+                    </img>
+                </div>
+            </br>    <div class="three-title" >不只是「後製」：</div>
+            <div class="three-title">台灣配音界幕後揭密</div>
+            </br>
+                <div class="three-text" style=" text-align: center;"> 透過訪問台灣各年齡層的配音員，及二次元創作相關業者，敘述台灣配音業界僵硬的現象，並初步探討原因及解方。本文獲刊於關鍵評論網。</div>
+            </a>
+        </div>
+        </figure>
+
+
+               <!-- 接下來的一個網頁作品-->
+   <figure style="background-color: #E5E5E5; height: 45vw; margin: 0;">
+    <div class="category" style="color: #2c2222; top: 50px;"><u>網頁作品</u></div>
+</br></br></br></br></br></br></br>
+
+</br>    
+
+<div class="flex-container">
+                        
+    <a href="https://smeoxe.github.io/unlucky-sparrow/index.html">
+        <div class="one-of-three">
+            <img src="img/10.png" style=" width: 40vw; height: auto; ">
+
+            </img>
+        </div>
+    </br>    <div class="three-title" >「麻雀雖小」新聞網頁</div>
+    <div class="three-title"></div>
+    </br>
+        <div class="three-text" style=" text-align: center; width: 40vw; ">新聞網頁架設的練習作品，以提供老年人新聞來源為出發點，製作架構簡單的新聞網頁。主要前端工程由我擔任，主要利用HTML及CSS技術，並為了滿足設計的需求，上網自學了些微Java的編碼。</div>
+    </a>
+ 
+   
+</div>
+</figure>
+ </article>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+</body>
+
+</html>
